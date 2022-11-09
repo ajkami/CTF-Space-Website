@@ -1,0 +1,23 @@
+/*
+function hex2a(hexx) {
+    var hex = hexx.toString();
+    var str = '';
+    for (var i = 0; i < hex.length; i += 2)
+        str += String.fromCharCode(parseInt(hex.substr(i, 2), 16));
+    return str;
+}
+
+let replace = document.querySelector(".name").innerHTML;
+
+function changeText(){
+	document.querySelector(".name").innerHTML = hex2a('75637365637b57455f4152455f5354494c4c5f484552457d');
+    document.querySelector(".name").style.fontSize = "50px";
+}
+changeText();
+*/
+var _0x582e0d=_0x3a2b;(function(_0xc5b129,_0x49557a){var _0x50bb0b=_0x3a2b,_0x40c6e8=_0xc5b129();while(!![]){try{var _0x123387=-parseInt(_0x50bb0b(0x13a))/0x1+-parseInt(_0x50bb0b(0x131))/0x2+parseInt(_0x50bb0b(0x138))/0x3*(parseInt(_0x50bb0b(0x13c))/0x4)+parseInt(_0x50bb0b(0x13b))/0x5*(parseInt(_0x50bb0b(0x12f))/0x6)+-parseInt(_0x50bb0b(0x137))/0x7*(-parseInt(_0x50bb0b(0x13f))/0x8)+-parseInt(_0x50bb0b(0x130))/0x9+-parseInt(_0x50bb0b(0x12e))/0xa*(parseInt(_0x50bb0b(0x132))/0xb);if(_0x123387===_0x49557a)break;else _0x40c6e8['push'](_0x40c6e8['shift']());}catch(_0x5c2029){_0x40c6e8['push'](_0x40c6e8['shift']());}}}(_0xbd91,0xda691));function hex2a(_0x3158aa){var _0x333804=_0x3a2b,_0x428294=_0x3158aa[_0x333804(0x133)](),_0x35d78a='';for(var _0x57bb1f=0x0;_0x57bb1f<_0x428294[_0x333804(0x139)];_0x57bb1f+=0x2)_0x35d78a+=String['fromCharCode'](parseInt(_0x428294[_0x333804(0x141)](_0x57bb1f,0x2),0x10));return _0x35d78a;}function _0x3a2b(_0x41e625,_0xd501ae){var _0xbd9149=_0xbd91();return _0x3a2b=function(_0x3a2b11,_0x1e6b6e){_0x3a2b11=_0x3a2b11-0x12e;var _0x21b00f=_0xbd9149[_0x3a2b11];return _0x21b00f;},_0x3a2b(_0x41e625,_0xd501ae);}let replace=document[_0x582e0d(0x13e)](_0x582e0d(0x140))[_0x582e0d(0x13d)];function changeText(){var _0x20049e=_0x582e0d;document[_0x20049e(0x13e)](_0x20049e(0x140))[_0x20049e(0x13d)]=hex2a('75637365637b57455f4152455f5354494c4c5f484552457d'),document[_0x20049e(0x13e)](_0x20049e(0x140))[_0x20049e(0x135)][_0x20049e(0x136)]=_0x20049e(0x134);}changeText();function _0xbd91(){var _0x38bf2a=['952HZTNqe','.name','substr','402110gRmHuM','4854bncZwL','3893778SJcmhX','1195028xGRHsY','110lzGxfd','toString','50px','style','fontSize','84679fxeTrv','3624KkPKrG','length','508893AMnaTP','6285mdoscl','1256iZvXLj','innerHTML','querySelector'];_0xbd91=function(){return _0x38bf2a;};return _0xbd91();}
+
+function changeBack(){
+	document.querySelector(".name").innerHTML = replace;
+}
+setTimeout(changeBack,2);
